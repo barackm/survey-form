@@ -15,9 +15,9 @@
         <p id="description">
           <i>Thank you for taking the time to help us improve the platform</i>
         </p>
-        <form action="" id="survey-form">
+        <form id="survey-form">
           <div class="form-control">
-            <label for="name" id="name-label" required>Name</label>
+            <label for="name" id="name-label">Name</label>
             <input
               type="text"
               id="name"
@@ -38,7 +38,6 @@
             <label for="number" id="number-label">Number</label>
             <input
               type="number"
-              name=""
               id="number"
               min="5"
               max="10"
@@ -46,7 +45,7 @@
             />
           </div>
           <div class="form-control">
-            <select name="" id="dropdown">
+            <select id="dropdown">
               <option value="HTML">HTML</option>
               <option value="CSS">CSS</option>
               <option value="Databases">Databases</option>
@@ -59,36 +58,30 @@
           <div class="check-box-area">
             <div class="form-control">
               <div class="radio-form">
-                <input type="radio" name="sex" id="" value="man" />
-                <label for="radio" id="radio-label">Man</label>
+                <input type="radio" name="sex" value="man" />
+                <label id="radio-label">Man</label>
               </div>
               <div class="radio-form">
-                <input type="radio" name="sex" id="" value="=" woman />
-                <label for="radio" id="radio-label">Woman</label>
+                <input type="radio" name="sex" value="woman" />
+                <label id="radio-label2">Woman</label>
               </div>
             </div>
             <div class="form-controls">
               <div class="check-form">
-                <input type="checkbox" name="" id="" value="working" />
-                <label for="check" id="check-label">Working</label>
+                <input type="checkbox" value="working" />
+                <label id="check-label">Working</label>
               </div>
               <div class="check-form">
-                <input type="checkbox" name="" id="" value="not working" />
-                <label for="check" id="check-label">Not working</label>
+                <input type="checkbox" value="not working" />
+                <label id="check-label2">Not working</label>
               </div>
               <div class="check-form">
-                <input type="checkbox" name="" id="" value="looking for job " />
-                <label for="check" id="check-label">Looking for Job</label>
+                <input type="checkbox" value="looking for job " />
+                <label id="check-label3">Looking for Job</label>
               </div>
             </div>
           </div>
-          <textarea
-            name=""
-            id=""
-            cols="30"
-            rows="10"
-            placeholder="Add comment"
-          ></textarea>
+          <textarea cols="30" rows="10" placeholder="Add comment"></textarea>
           <button type="submit" id="submit">Submit</button>
         </form>
       </div>
